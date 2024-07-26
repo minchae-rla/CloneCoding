@@ -2,7 +2,11 @@
   margin: 0;
   padding: 0;
 }
-
+/* 헤더섹션 총 영역 크기*/
+header{
+  border-bottom: 1px solid grey;
+}
+/* 헤더 최상단 광고 영역 크기 */
 .div-Headerbanner{
   background-color: rgb(255, 212, 0);
   width: 100%;
@@ -11,15 +15,24 @@
   justify-content: center;
   align-items: center;
 }
-
+/* 헤더 최상단 광고 이미지 사이즈 */
 .img-headerbanner{
   width: 1168px;
   height: 48px;
 }
-
+/* 헤더 중간 검색창 영역 크기 */
 .div-Header{
   background-color: white;
   width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-headersize{
+  background-color: white;
+  width: 1168px;
   height: 60px;
   display: flex;
   justify-content: center;
@@ -40,7 +53,7 @@
   border-radius: 30px;
   width: 550px;
   height: 40px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .search-header:hover{
@@ -88,29 +101,52 @@ button:hover{
   cursor: pointer;
 }
 
+.div-bar{
+  margin: 0px 30px;
+  color: grey;
+}
+
 .div-HeaderCategory{
   background-color: white;
   width: 100%;
   height: 40px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+}
+
+.div-headercategorysize{
+  background-color: white;
+  width: 1168px;
+  height: 40px;
+  display: flex;
+  align-items: center;  
+}
+
+.div-categorymenu ul{
+  display: flex;
+  font-size: 16px;
+  gap: 20px;
 }
 
 ul li{
   list-style-type: none;
 }
 
-.dropdown{
+.div-dropdown{
   position: relative;
 }
 
-.dropdown-menu{
+.div-dropdownmenu{
   cursor: pointer;
+  width: 110px;
+  height: 40px;
   font-size: 16px;
+  display: flex;
+  align-items: center;
 }
 
-.dropdown-content{
+.div-dropdowncontent{
   width: 100px;
   height: 100px;
   display: none;
@@ -118,16 +154,23 @@ ul li{
   background-color: white;
 }
 
-.dropdown-content a{
+.div-dropdowncontent a{
   color: black;
   text-decoration: none;
   display: block;
 }
 
-.dropdown:hover .dropdown-content{
+.div-dropdown:hover .div-dropdowncontent{
   display: block;
 }
+/* 헤더 종료 */
 
+/* 메인 시작 */
+main{
+  border-bottom: 1px solid grey;
+}
+
+/* 메인 광고 이미지 배너 */
 .div-mainbanner{
   background-color:white ;
   width: 100%;
@@ -143,31 +186,123 @@ ul li{
   border-radius: 20px;
 }
 
+/* 메인-카테고리섹션 */
 .div-maincategory{
   background-color: blue;
+  width: 100%;
+  height: 395px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-maincategorysize{
+  background-color: skyblue;
+  width: 1168px;
+  height: 395px;
+}
+
+.div-maincategorytitle{
+  background-color: pink;
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+}
+
+.div-maincategorylogosize{
+  background-color: aquamarine;
+  width: 1000px;
+  height: 335px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 메인 섹션 인기서비스 배너 */
+.div-mainmarket{
+  background-color: blanchedalmond;
+  width: 100%;
+  height: 400px;
+}
+
+/* 메인 광고영상배너 */
+.div-mainvideo{
+  background-color: beige;
+  width: 100%;
+  height: 400px;
+}
+
+/* 메인 회원가입 광고 배너*/
+.div-mainregibanner{
+  background-color: rgb(48, 52, 64);
+  width: 100%;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+}
+
+.div-mainregibannersize{
+  width: 1168px;
+  height: 160px;
+}
+
+/* 메인 영상후기 광고 배너 */
+.div-mainreviewvideo{
+  background-color: rgb(255, 212, 0);
+  width: 100%;
+  height: 500px;
+  display: flex ;
+  justify-content: center;
+}
+
+.div-mainreviewvideosize{
+  background-color: rgb(255, 212, 0);
+  width: 1168px;
+  height: 500px;
+  display: block;
+  text-align: center;
+}
+
+.div-reviewvideosubtitle{
+  color: gray;
+}
+
+/* 메인 아티클 */
+.div-mainarticle{
+  background-color: rgba(225, 222, 222, 0.918);
+  width: 100%;
+  height: 600px;
+}
+
+/* 메인 후기 순위 */
+.div-mainrank{
+  background-color: white;
   width: 100%;
   height: 500px;
 }
 
-.div-maincategorysize{
+/* 메인종료 */
+/* 푸터시작 */
+
+
+.div-footer1{
+  border-bottom: 1px solid grey;
   background-color: white;
   width: 100%;
   height: 200px;
 }
 
-.div-mainservice{
-  background-color: bisque;
+.div-footerinfo{
+  background-color: white;
   width: 100%;
-  height: 500px;
+  height: 200px;
 }
-
-.div-categorymenu ul{
-  display: flex;
-  font-size: 16px;
-  gap: 20px;
-}
-
-
-
-
-
