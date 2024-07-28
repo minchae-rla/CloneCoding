@@ -143,6 +143,7 @@ ul li{
   width: 110px;
   height: 40px;
   font-size: 16px;
+  font-weight: bold;
   display: flex;
   align-items: center;
 }
@@ -189,7 +190,6 @@ main{
 
 /* 메인-카테고리섹션 */
 .div-maincategory{
-  background-color: blue;
   width: 100%;
   height: 395px;
   display: flex;
@@ -198,14 +198,12 @@ main{
 }
 
 .div-maincategorysize{
-  background-color: skyblue;
   width: 1168px;
   height: 395px;
   display: block;
 }
 
 .div-maincategorytitle{
-  background-color: pink;
   width: 100%;
   height: 60px;
   font-size: 20px;
@@ -214,13 +212,11 @@ main{
 }
 
 .div-maincategorylogosize{
-  background-color: aquamarine;
   width: 100%px;
   height: 335px;
 } 
 
 .div-mainbusinessnav{
-  background-color: azure;
   width: 100%;
   height: 150px;
   display: flex;
@@ -235,30 +231,151 @@ main{
   font-size: 15px;
 }
 
+.div-njobbox{
+  width: 450px;
+  height: 160px;
+  display: flex;
+  flex-direction: column; 
+}
+
+.div-njobboxtitle{
+  width: 200px;
+  height: 30px;
+}
+
+.div-prizeboxtitle{
+  height: 30px;
+  text-align: center;
+}
 
 
+.div-njoblogosize{
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
 
+.div-njoblogo{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
 
+.div-cateundeersize{
+  width: 1168px;
+  height: 160px;
+  display: flex;
+}
 
+.div-hobbybox{
+  width: 500px;
+  height: 160px;
+  display: flex;
+  flex-direction: column; 
+}
 
-
-
-
-
+.div-prizebox{
+  width: 150px;
+  height: 160px;
+}
 
 
 /* 메인 섹션 인기서비스 배너 */
 .div-mainmarket{
-  background-color: blanchedalmond;
   width: 100%;
   height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.div-mainmarketsize{
+  width: 1168px;
+  height: 100%;
+}
+
+.div-markettitle{
+  width: 1168px;
+  height: 60px;
+  align-content: center;
+}
+
+.div-marketbutton{  
+  width: 1168px;
+  height: 60px;
+  align-content: center;
+}
+
+.div-marketbutton button{
+  margin: 3px;
+  padding: 0px 7px;
+  background-color: white;
+  width: auto;
+  height: 36px;
+  border: 1px solid grey;
+  border-radius: 20px;
+}
+
+.div-makretbuttonfirst{
+  margin: 3px;
+  padding: 0px 7px;
+  background-color:black !important; 
+  color: white;
+  width: auto;
+  height: 36px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.div-marketinfosize{
+  width: 1168px;
+  height: 270px;
+  display: flex;
+  gap: 10px;
+}
+
+.div-marketinfo{
+  width: 220px;
+  height: 270px;
+  user-select: none;
+}
+
+.div-marketimgsize{
+  width: 220px;
+  height: 158px;
+  border-radius: 10px;
+}
+
+.p-marketinfotext{
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.p-marketstar{
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.p-marketstar span{
+  font-size: 13px;
+  color: gray;
+  font-weight: 400;
+}
+
+.p-marketsubtitle{
+  font-size: 12px;
+  color: gray;
+}
+
 
 /* 메인 광고영상배너 */
 .div-mainvideo{
   background-color: rgb(242, 243, 247);
   width: 100%;
-  height: 700px;
+  height: 750px;
   display: flex;
   flex-direction: column;
   justify-content: center; 
@@ -267,7 +384,7 @@ main{
 
 .div-mainvideosize{
   width: 1168px;
-  height: 400px;
+  height: 500px;
   display: flex;
   justify-content: center; 
   align-items: center;
@@ -276,7 +393,7 @@ main{
 
 .div-mainvideoinfosize{
   width: 1168px;
-  height: 300px;
+  height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -289,9 +406,35 @@ main{
   width: 300px;
   height: 150px;
   font-size: 14px;
-  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+.div-mainvideoboxtext{
+  width: 250px;
+}
+
+.div-mainvideoboximg{
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-reviewvediosize{
+  width: 376px;
+  height: auto;
+  text-align: left;
+}
+
+.span-reviewviedofirst{
+  font-weight: bold;
+}
+
+.span-reviewviedosecond{
+  color: grey;
+}
 
 /* 메인 회원가입 광고 배너*/
 .div-mainregibanner{
@@ -317,7 +460,7 @@ main{
 }
 
 .div-mainreviewvideosize{
-  background-color: rgb(255, 212, 0);;
+  background-color: rgb(255, 212, 0);
   width: 1168px;
   height: 100%;
   text-align: center;
@@ -398,9 +541,10 @@ iframe{
 }
 
 .div-articlebutton{
+  background-color: white;
   width: 376px;
   height: 52px;
-  border-color: grey;
+  border-color: gainsboro;
   border-radius: 10px;
   font-size: 15px;
   font-weight: bold;
@@ -412,9 +556,95 @@ iframe{
 
 /* 메인 후기 순위 */
 .div-mainrank{
-  background-color: white;
+  background-color: pink;
   width: 100%;
-  height: 500px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+
+.div-mainranksize{
+  background-color: beige;
+  width: 1168px;
+  height: 700px;
+}
+
+.div-mainranktitlesize{
+  width: 100%;
+  height: 100px;
+  align-content: center;
+}
+
+.p-mainranktitle{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.p-mainranksubtitle{
+  font-size: 18px;
+  color: gray;
+}
+
+.div-rankboxsize{
+  background-color: blue;
+  width: 1168px;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-rankbox{
+  background-color: skyblue;
+  width: 380px;
+  height: 600px;
+}
+
+.div-rankboxfirst{
+  background-color: rgb(255, 212, 0);
+  width: 380px;
+  height: 140px;
+  border-radius: 10px;
+  border: 1px solid yellow;
+}
+
+.div-rankboxtitle{
+  width: auto;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  align-content: center;
+}
+
+.div-rankboxinfo{
+  background-color: white;
+  width: 380px;
+  height: 90px;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+
+.span-rankboxinfotitle{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.span-rankboxinfosub{
+  font-size: 16px;
+  color: gray;
+  font-weight: normal;
+}
+
+.div-rankimg{
+  width: auto;
+  height: auto;
+  border-radius: 100%;
+  border: 1px solid gainsboro;
+  width: 48px;
+  height: 48px;
 }
 
 /* 메인종료 */
