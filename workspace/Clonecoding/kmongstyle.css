@@ -243,12 +243,6 @@ main{
   height: 30px;
 }
 
-.div-prizeboxtitle{
-  height: 30px;
-  text-align: center;
-}
-
-
 .div-njoblogosize{
   height: 130px;
   display: flex;
@@ -279,6 +273,13 @@ main{
 .div-prizebox{
   width: 150px;
   height: 160px;
+}
+
+.div-prizeboxtitle{
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -556,7 +557,6 @@ iframe{
 
 /* 메인 후기 순위 */
 .div-mainrank{
-  background-color: pink;
   width: 100%;
   height: 700px;
   display: flex;
@@ -564,7 +564,6 @@ iframe{
 }
 
 .div-mainranksize{
-  background-color: beige;
   width: 1168px;
   height: 700px;
 }
@@ -586,7 +585,6 @@ iframe{
 }
 
 .div-rankboxsize{
-  background-color: blue;
   width: 1168px;
   height: 600px;
   display: flex;
@@ -594,7 +592,6 @@ iframe{
 }
 
 .div-rankbox{
-  background-color: skyblue;
   width: 380px;
   height: 600px;
 }
@@ -647,12 +644,62 @@ iframe{
   height: 48px;
 }
 
+.div-mainrankelseapace{
+  width: auto;
+  height: 10px;
+}
+
+.div-mainrankelsebox{
+  background-color: rgb(247, 247, 247);
+  width: auto;
+  height: 430px;
+  border-radius: 10px;
+  box-shadow: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.div-rank2box{
+  width: 370px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  border-bottom: 1px solid gray;
+}
+
+.span-rank2boxinfotitle{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.span-rank2boxinfosub{
+  font-size: 12px;
+  color: gray;
+  font-weight: normal;
+}
+
+.div-rank5box{
+  width: 370px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+
+
+
 /* 메인종료 */
 /* 푸터시작 */
 
 .div-footermenu{
   border-bottom: 1px solid grey;
-  background-color: white;
   width: 100%;
   height: 300px;
   display: flex;
@@ -665,16 +712,19 @@ iframe{
 }
 
 .div-footermenucategory{
-  background-color: white;
   width: 100%;
   height: 200px;
   display: flex;
 }
 
 .div-footermenutime{
-  align-content: center;
-  width: 300px;
+  width: 320px;
   height: 100%;
+}
+
+.div-footersapce{
+  width: 1168px;
+  height: 25px;
 }
 
 .div-footermenutimeinfo{
@@ -683,12 +733,14 @@ iframe{
 }
 
 .div-footerask{
-  background-color: rgb(235, 244, 255);
+  background-color: rgb(240, 247, 248);
   color: blue;
-  width: 250px;
+  width: 280px;
   height: 60px;
   font-size: 12px;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
 }
 
 .div-footermenutimebutton{
@@ -696,14 +748,14 @@ iframe{
   width: 146px;
   height: 36px;
   border: 1px solid black;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: 16px;
   font-weight: bold;
 }
 
 .div-footermenubutton{
-  width: 100%;
-  height: 100px;
+  width: 1168px;
+  height: 40px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -713,10 +765,15 @@ iframe{
 .div-footerappbutton{
   background-color: white;
   border: 1px solid black;
-  border-radius: 5px;
-  width: 190px;
-  height: 50px;
+  border-radius: 10px;
+  width: 180px;
+  height: 45px;
   font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .div-footercategorylist{
